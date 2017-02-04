@@ -1,8 +1,10 @@
 body{
   font: 15px/1.5 Helvetica, sans-serif;
+  color: #473E3F;
   padding: 0;
   margin: 0;
-  background-color: #33cccc;
+  background-color: #218C8D;
+
 }
 
 /* Global */
@@ -12,30 +14,72 @@ body{
   overflow: hidden;
 }
 
+.button_1{
+  height: 50px;
+  background: #e0e0d1;
+  border: 10px;
+  padding: 10px 20px 10px 20px;
+  color: #473E3F;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 /* Header */
 header{
-  background: #ccffcc;
-  color: #000000;
+  background: #F9E559;
+  color: #473E3F;
   padding-top: 30px;
   min-height: 70px;
+}
+
+header h1{
+  text-transform: uppercase;
 }
 
 header #branding{
   text-align: center;
 }
 
+/* Options */
+
+#options{
+  padding: 15px;
+  color: #473E3F;
+}
+
+/* centers buttons on page */
+#options form{
+  text-align: center;
+  margin-top: 15px;
+}
+
+#options button:hover{
+  color: #e0e0d1;
+  background: #473E3F
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  background: 
+}
+
+#showcase h1{
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* Footer */
 footer{
   padding: 20px;
   margin-top: 20px;
-  color: #000000;
-  background-color: #ccffcc;
+  color: #473E3F;
+  background-color: #F9E559;
   text-align: center;
 }
 
 footer a{
-  color: #000000;
+  color: #473E3F;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
