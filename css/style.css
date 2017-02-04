@@ -2,5 +2,17 @@ body{
   font: 15px/1.5 Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #008080;
+  background-color: #85e0e0;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header{
+  background: 
 }
