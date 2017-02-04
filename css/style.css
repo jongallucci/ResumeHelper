@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #85e0e0;
+  background-color: #33cccc;
 }
 
 /* Global */
@@ -14,5 +14,39 @@ body{
 
 /* Header */
 header{
-  background: 
+  background: #ccffcc;
+  color: #000000;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header #branding{
+  text-align: center;
+}
+
+
+/* Footer */
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #000000;
+  background-color: #ccffcc;
+  text-align: center;
+}
+
+footer a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+footer li{
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+footer li:hover{
+  color: #cccccc;
+  font-weight: bold;
 }
