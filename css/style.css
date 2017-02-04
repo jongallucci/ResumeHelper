@@ -8,13 +8,14 @@ body{
 /* Global */
 .container{
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
+
 }
 
 /* Header */
 header{
-  background: #ccffcc;
+  background: #ffff99;
   color: #000000;
   padding-top: 30px;
   min-height: 70px;
@@ -24,13 +25,36 @@ header #branding{
   text-align: center;
 }
 
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:none;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+article#main-col{
+  text-align: center;
+  width:65%;
+}
+
+ul#HowCanWeHelpYou li{
+  list-style:none;
+  padding:20px;
+  border:#cccccc;
+  margin-bottom: 5px;
+  background:#ffff99;
+}
+
 
 /* Footer */
 footer{
   padding: 20px;
   margin-top: 20px;
   color: #000000;
-  background-color: #ccffcc;
+  background-color: #ffff99;
   text-align: center;
 }
 
