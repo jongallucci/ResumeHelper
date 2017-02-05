@@ -105,13 +105,16 @@ ul#HowCanWeHelpYou li{
 footer{
   padding: 20px;
   margin-top: 20px;
-<<<<<<< HEAD
-  color: #000000;
-  background-color: #ffff99;
-=======
-  color: #473E3F;
-  background-color: #F9E559;
->>>>>>> refs/remotes/origin/master
+  color: #ffffff;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: #e6e6e6;
   text-align: center;
 }
 
@@ -123,6 +126,7 @@ footer a{
 }
 
 footer li{
+
   display: inline;
   padding: 0 20px 0 20px;
 }
